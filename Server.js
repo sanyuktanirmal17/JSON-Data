@@ -26,9 +26,10 @@ const saveData = (data, file) => {
         }
     }
     const jsonData = JSON.stringify(data, null, 2)
-   // console.log(User)
+    console.log(User)
    fs.writeFile('User.json', jsonData, finished)
     console.log(jsonData)
+
 
 }
 
